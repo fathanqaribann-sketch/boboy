@@ -1,6 +1,6 @@
 
 import 'package:go_router/go_router.dart';
-import 'package:myapp/screens/booking_history_screen.dart';
+import 'package:myapp/screens/history_screen.dart';
 import 'package:myapp/screens/class_list_screen.dart';
 import 'package:myapp/screens/home_screen.dart';
 import 'package:myapp/screens/login_screen.dart';
@@ -21,8 +21,8 @@ final router = GoRouter(
       builder: (context, state) => const ClassListScreen(),
     ),
     GoRoute(
-      path: '/booking_history',
-      builder: (context, state) => const BookingHistoryScreen(),
+      path: '/history',
+      builder: (context, state) => const HistoryScreen(),
     ),
   ],
 );
